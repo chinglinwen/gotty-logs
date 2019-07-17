@@ -3,5 +3,5 @@
 
 echo "start compiling..."
 go build
-curl fs.devops.haodai.net/soft/uploadapi -F file=@gotty-logs -F truncate=yes
+curl fs.haodai.net/soft/uploadapi -F file=@gotty-logs -F truncate=yes
 cksum gotty-logs
